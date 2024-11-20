@@ -23,3 +23,5 @@ Once you have the build running you can operate with the application in 2 way:
 
 - Making API calls directly from the browser (more complex)
 - Downloading and installing Postman and making API call from there (strongly recommended)
+
+Note: not all the edgecases are covered yet. Some mongoDB functionalities seems to have some trouble with the latest version of typescript. I tried to address most of the edge cases and left some comment on function that may should work in a close future, but I wasn't able to find a workaround for all of them.
